@@ -123,7 +123,7 @@ jobs:
 
     - name: Validate configuration
       run: |
-        python -m src.config.cli validate
+        python -m code_review_automation.config.cli validate
         echo "Configuration validation passed ✅"
 
   # Job 2: Code review analysis
@@ -200,7 +200,7 @@ jobs:
         mkdir -p results
 
         # Run the analysis
-        python -m src.main \
+        python -m code_review_automation.main \
           --mode="${ANALYSIS_MODE}" \
           --analysis-type="${{ matrix.analysis-type }}" \
           --severity-threshold="${SEVERITY_THRESHOLD}" \
@@ -398,7 +398,7 @@ jobs:
 
     - name: Generate HTML dashboard
       run: |
-        python -m src.formatters.cli \
+        python -m code_review_automation.formatters.cli \
           --input combined-results.json \
           --format html \
           --sub-format dashboard \

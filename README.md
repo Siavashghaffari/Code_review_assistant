@@ -276,9 +276,9 @@ mypy src/
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## License
+## Authors
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This work was developed by Siavash Ghaffari. For any questions, feedback, or additional information, please feel free to reach out. Your input is highly valued and will help improve and refine this pipeline further.
 
 ## Changelog
 

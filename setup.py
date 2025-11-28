@@ -27,9 +27,9 @@ setup(
     description="Automated code review tool for analyzing git diffs and files",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author="Code Review Team",
-    author_email="code-review@example.com",
-    url="https://github.com/example/code-review-automation",
+    author="Siavash Ghaffari",
+    author_email="",
+    url="https://github.com/siavashghaffari/code-review-automation",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     include_package_data=True,
@@ -58,7 +58,6 @@ setup(
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
-        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.8",
@@ -72,8 +71,7 @@ setup(
     python_requires=">=3.8",
     keywords="code review, static analysis, git, automation, quality",
     project_urls={
-        "Bug Reports": "https://github.com/example/code-review-automation/issues",
-        "Source": "https://github.com/example/code-review-automation",
-        "Documentation": "https://code-review-automation.readthedocs.io/",
+        "Bug Reports": "https://github.com/siavashghaffari/code-review-automation/issues",
+        "Source": "https://github.com/siavashghaffari/code-review-automation",
     },
 )
