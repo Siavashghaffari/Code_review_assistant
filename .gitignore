@@ -101,3 +101,10 @@ dmypy.json
 
 # pytype static type analyzer
 .pytype/
+
+# Node modules
+node_modules/
+package-lock.json
+
+# Generated presentations
+presentations/

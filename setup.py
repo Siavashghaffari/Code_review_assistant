@@ -52,7 +52,7 @@ setup(
     },
     entry_points={
         "console_scripts": [
-            "code-review=main:main",
+            "code-review=code_review_automation.main:main",
         ],
     },
     classifiers=[
